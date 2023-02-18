@@ -3,19 +3,19 @@ const chalk = require("chalk")
 
 global.available = true
 global.autoReadGc = true
-global.autoReadAll = false
-global.antitags = true
+global.autoReadAll = true
+global.antitags = false
 
 
-global.Owner = ['917720983954']
-global.OwnerNumber = ['917720983954']
-global.ownertag = ['917720983954']
-global.BotName = "Mai Sakurajima"
-global.packname = "Mai bot"
-global.author = "By Mai senpai"
-global.OwnerName = "Atharv"
-global.BotSourceCode = "https://geeksarchon.com"
-global.SupportGroupLink = "https://geeksarchon.com"
+global.Owner = ['6285731251154']
+global.OwnerNumber = ['6285731251154']
+global.ownertag = ['6285731251154']
+global.BotName = "Itsuki Nakano"
+global.packname = "Whatsapp Bot"
+global.author = "Itsuki Nakano"
+global.OwnerName = "ShoEru"
+global.BotSourceCode = "https://nekopoi.care"
+global.SupportGroupLink = "https://chat.whatsapp.com"
 global.sessionName = "session"
 
 // Prefix //
@@ -23,11 +23,11 @@ global.sessionName = "session"
 global.prefa = ['-'] 
 
 
-global.location = "Maharashtra, India"
-global.reactmoji = "❤️"
-global.themeemoji = "💖"
+global.location = "isekai"
+global.reactmoji = "🌙"
+global.themeemoji = "🦋"
 global.vidmenu = { url: 'https://media.tenor.com/PGQKCAVKUTkAAAAC/mai-sakurajima-bunny-girl-senpai.gif' }
-global.websitex = "https://geeksarchon.com"
+global.websitex = "https://nekopoi.care"
 global.lolhuman = "KaysaS"
 
 
@@ -59,7 +59,7 @@ global.ntilink = []
 
 global.mess = {
     jobdone: 'Job done...',
-    useradmin: 'Sorry, only *Atharv Senpai or Group Admins* can use this command *Baka*!',
+    useradmin: 'Sorry, only *Sho Senpai or Group Admins* can use this command *Baka*!',
     botadmin: 'Sorry, i cant execute this command without being an *Admin* of this group.',
     botowner: 'Only my *Owner or Group Admin* can use this command, Baka!',
     grouponly: 'This command is only made for *Groups*, Baka!',
@@ -77,20 +77,20 @@ global.mess = {
 
 global.limitawal = {
     premium: "Infinity",
-    free: 2,
-    monayawal: 1000
+    free: 10,
+    monayawal: 0
 }
    global.rpg = {
    darahawal: 100,
-   besiawal: 95,
-   goldawal: 30,
-   emeraldawal: 8,
-   umpanawal: 10,
-   potionawal: 5
+   besiawal: 0,
+   goldawal: 0,
+   emeraldawal: 0,
+   umpanawal: 0,
+   potionawal: 1
 }
 global.limitawal = {
     rakyat: "Infinity",
-    free: 100
+    free: 30
 }
 
 

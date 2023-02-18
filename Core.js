@@ -1397,15 +1397,15 @@ return list[Math.floor(list.length * Math.random())]
     }
 
     if (smallinput.includes('good morning') || smallinput.includes('ohayo')) {
-      reply (`Good morning to you too *${pushname}* ☺️. Have a great day 😇.`);
+      reply (`Good morning to you too *${pushname}* (⁠≧⁠▽⁠≦⁠)\nHave a great day.`);
     }
 
     if (smallinput.includes('good night')) {
-      reply (`Good night to you too *${pushname}* 😇. Sleep well and sweet dreams.`);
+      reply (`Good night to you too *${pushname}*. Sleep well and sweet dreams.`);
     }
 
     if (smallinput.includes('arigato')|| smallinput.includes('arigatou') || smallinput.includes('thank')) {
-      reply (`Mention not *${pushname}* 😇. I am a bot afterall.`);
+      reply (`Mention not *${pushname}*. I am a bot afterall.`);
     }      
 
 switch(command) {
@@ -1486,13 +1486,13 @@ case 'nsfwmenu':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
     if (!AntiNsfw) return reply(mess.nonsfw)
-        reply(` *━━━〈  📛 NSFW Menu 📛  〉━━━*\n\nahegao, ass, bdsm, cuckold, cum, ero, femdom, gangbang, foot, glasses, hentai, masturbation, orgy, panties, pussy, tentacles, things, yuri ,nsfwloli, blowjobgif, hentaivideo, trap, hneko, hwaifu`)
+        reply(` *━━━〈  NSFW Menu  〉━━━*\n\nahegao, ass, bdsm, cuckold, cum, ero, femdom, gangbang, foot, glasses, hentai, masturbation, orgy, panties, pussy, tentacles, things, yuri ,nsfwloli, blowjobgif, hentaivideo, trap, hneko, hwaifu`)
     break
 
 case 'reaction': case 'react': case 'reactions': case 'r':
         if (isBan) return reply(mess.banned)	 			
         if (isBanChat) return reply(mess.bangc)
-            reply(` *━━━〈  📍 Reactions 📍  〉━━━*\n\nbonk, cry, bully, cuddle, hug, kiss, lick, pat, smug, yeet, blush, smile, wave, highfive, handhold, nom, glomp, bite, slap, kill, happy, wink, poke, dance, cringe`)
+            reply(` *━━━〈  Reactions  〉━━━*\n\nbonk, cry, bully, cuddle, hug, kiss, lick, pat, smug, yeet, blush, smile, wave, highfive, handhold, nom, glomp, bite, slap, kill, happy, wink, poke, dance, cringe`)
         break   
     
 
@@ -1681,7 +1681,7 @@ from,
 text: "Group Settings",
 footer: BotName,
 title: "Set your group settings here...",
-buttonText: "Click Button",
+buttonText: "Click Here",
 sections
 }, { quoted : m }
 )  
@@ -4703,69 +4703,69 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
  I am *Mai Sakurajima*, a bot mod developed by *Atharv*.
 
  
- 🔰 My prefix is:  ${prefix}
+Bot prefix is:  ${prefix}
  
  Here's the list of my Commands.
  
  
   
-  *━━━〈  🎆 Core 🎆  〉━━━*
+  *━━━〈  Core  〉━━━*
  
  speak,help, listonline
   
-  *━━━〈  🎀 Owner 🎀  〉━━━*
+  *━━━〈  Owner  〉━━━*
  
  self, public, ban, bangroup, bye, join, bye, block, unblock, broadcast 
  
-  *━━━〈  ⭕ Group ⭕  〉━━━*
+  *━━━〈  Group  〉━━━*
   
  promote, demote, revoke, add, remove, tagall, hidetag, groupsetting, grouplink, setgcpp, setname, setdesc, group, nsfw 
  
-  *━━━〈  ➰ Anti Link ➰  〉━━━*
+  *━━━〈  Anti Link  〉━━━*
   
  antilinkgc, antilinktg, antilinktt, antilinkytch, antilinkytvid, antilinkig, antilinkfb, antilinktwit, antilinkall, antiwame
  
-  *━━━〈  🔍 Search 🔍  〉━━━*
+  *━━━〈  Search  〉━━━*
  
  play, ytmp3, ytmp4, yts, lyrics, google, gimage, pinterest, image, movie, wallpaper, searchgc, happymod, wikimedia, ringtone, anime, animestory, manga, ringtone  
  
-  *━━━〈  🔰 Convert 🔰  〉━━━*
+  *━━━〈  Convert 〉━━━*
  
  sticker, toimg, tovideo, togif , steal, stickermeme, emojimix, tourl, tomp3, toaudio
  
-  *━━━〈  🔉 Audio 🔉  〉━━━*
+  *━━━〈  Audio  〉━━━*
  
  bass, tempo, blown, deep, earrape, fast, fat, nightcore, reverse, robot, slow, squirrel
  
-  *━━━〈  📍 Reactions 📍  〉━━━*
+  *━━━〈  Reactions  〉━━━*
  
  bonk, cry, bully, cuddle, hug, kiss, lick, pat, smug, yeet, blush, smile, wave, highfive, handhold, nom, glomp, bite, slap, kill, happy, wink, poke, dance, cringe
  
-  *━━━〈  🌌 Downloader 🌌  〉━━━*
+  *━━━〈  Downloader  〉━━━*
  
  play, ytmp3, ytmp4, ytvideo, mediafire, instagram, igtv, facebook, fbmp3, twitter, twittermp3, tiktok, tiktokaudio, tiktoknowm, mediafire  
  
-  *━━━〈  🈴 Weeb 🈴  〉━━━*
+  *━━━〈  Weeb  〉━━━*
  
  crosplay, waifu, loli, neko, ppcouple, feed, foxgirl, feed, meow, tickle, wallpaper, coffee, animenom, waifu3, neko2, feed, meow, tickle, migumin, awoo, animewallpaper2, anime, manga
  
-  *━━━〈  ♨️ Informative ♨️  〉━━━*
+  *━━━〈  Informative  〉━━━*
  
  animequote, quote, covid, earthquake, wiki
  
-  *━━━〈  🎗 Others 🎗  〉━━━*
+  *━━━〈   Others   〉━━━*
  
  stickermeme, quotes, darkjoke 
  
-  *━━━〈  🎐 Fun 🎐  〉━━━*
+  *━━━〈  Fun  〉━━━*
  
  reaction, truth, dare, couple, soulmate, handsomecheck, beautifulcheck, awesomecheck, greatcheck, gaycheck, cutecheck, lesbiancheck, hornycheck, prettycheck, lovelycheck, uglycheck, charactercheck
  
-  *━━━〈  🪁 Essentials 🪁  〉━━━*
+  *━━━〈  Essentials   〉━━━*
  
  say, translate, fliptext, toletter
  
-  *━━━〈  💥 NSFW 💥  〉━━━*
+  *━━━〈   NSFW   〉━━━*
  
  🍁 Type " *${prefix}nsfw* " then enable NSFW (Admin only!) 
  
@@ -4777,10 +4777,10 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
   『  *${global.BotName}*  』
   Powered by: *Atharv*
  
-  🔰 To use any of these commands type 
+  ⚠️ To use any of these commands type 
   " *${prefix}<Command name>* ".
 
- 🔰 Type " *${prefix}help* " to get full command list.`
+ ⚠️ Type " *${prefix}help* " to get full command list.`
     
 
  let buttonshelpm = [
